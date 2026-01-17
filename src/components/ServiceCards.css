@@ -1,0 +1,122 @@
+.service-cards {
+  padding: 80px 0;
+  background: var(--color-bg-light);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-bottom: 64px;
+}
+
+.service-card {
+  background: var(--color-white);
+  padding: 40px 32px;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  font-size: 36px;
+}
+
+.service-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-brown);
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  color: var(--color-text-secondary);
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.service-link {
+  color: var(--color-orange);
+  font-weight: 500;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.service-card:hover .service-link {
+  transform: translateX(4px);
+}
+
+.quick-links {
+  background: var(--color-white);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.quick-links h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-brown);
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.quick-links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.quick-link {
+  padding: 16px 24px;
+  background: var(--color-cream);
+  border-radius: 8px;
+  color: var(--color-brown);
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.quick-link:hover {
+  background: var(--color-orange);
+  color: var(--color-white);
+  border-color: var(--color-orange);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 968px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .service-cards {
+    padding: 60px 0;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-links-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,52 @@
+/* 参考配色方案 */
+:root {
+  --color-cream: #EAE1CB;
+  --color-rose: #D18E97;
+  --color-mustard: #D2A432;
+  --color-sage: #979E6C;
+  --color-brown: #5B3B1E;
+  --color-orange: #BC5727;
+  
+  /* 衍生颜色 */
+  --color-text-primary: #2C2C2C;
+  --color-text-secondary: #666666;
+  --color-bg-light: #FAFAFA;
+  --color-white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-text-primary);
+  line-height: 1.6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}
