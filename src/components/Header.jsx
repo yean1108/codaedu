@@ -92,15 +92,33 @@ const Header = () => {
               <span className="logo-tagline">{t.nav.tagline}</span>
             </Link>
             
-            <button 
-              className={`mobile-menu-toggle ${isMenuOpen ? 'active' : ''}`}
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              aria-label={language === 'zh' ? '切换菜单' : 'Toggle Menu'}
-            >
-              <span></span>
-              <span></span>
-              <span></span>
-            </button>
+            <div className="mobile-header-actions">
+              <div className="mobile-lang-switcher-inline">
+                <button 
+                  className={`lang-btn-inline ${language === 'zh' ? 'active' : ''}`}
+                  onClick={() => setLanguage('zh')}
+                  aria-label="切换到中文"
+                >
+                  中
+                </button>
+                <button 
+                  className={`lang-btn-inline ${language === 'en' ? 'active' : ''}`}
+                  onClick={() => setLanguage('en')}
+                  aria-label="Switch to English"
+                >
+                  EN
+                </button>
+              </div>
+              <button 
+                className={`mobile-menu-toggle ${isMenuOpen ? 'active' : ''}`}
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                aria-label={language === 'zh' ? '切换菜单' : 'Toggle Menu'}
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
 
             {isMenuOpen && (
               <div 
@@ -109,6 +127,28 @@ const Header = () => {
               ></div>
             )}
             <ul className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
+              <li className="mobile-lang-switcher">
+                <div className="mobile-lang-buttons">
+                  <button 
+                    className={`lang-btn-mobile ${language === 'zh' ? 'active' : ''}`}
+                    onClick={() => {
+                      setLanguage('zh')
+                      setIsMenuOpen(false)
+                    }}
+                  >
+                    中文
+                  </button>
+                  <button 
+                    className={`lang-btn-mobile ${language === 'en' ? 'active' : ''}`}
+                    onClick={() => {
+                      setLanguage('en')
+                      setIsMenuOpen(false)
+                    }}
+                  >
+                    English
+                  </button>
+                </div>
+              </li>
               <li>
                 <Link 
                   to="/" 
