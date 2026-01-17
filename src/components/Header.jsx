@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useLanguage } from '../contexts/LanguageContext'
 import { translations } from '../translations'
@@ -12,6 +12,18 @@ const Header = () => {
   const t = translations[language]
   
   const isServicesPage = location.pathname.startsWith('/services')
+
+  // 移动端菜单打开时禁止body滚动
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+    return () => {
+      document.body.style.overflow = ''
+    }
+  }, [isMenuOpen])
 
   const servicesMenu = [
     { 
@@ -81,7 +93,7 @@ const Header = () => {
             </Link>
             
             <button 
-              className="mobile-menu-toggle"
+              className={`mobile-menu-toggle ${isMenuOpen ? 'active' : ''}`}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label={language === 'zh' ? '切换菜单' : 'Toggle Menu'}
             >
@@ -90,18 +102,32 @@ const Header = () => {
               <span></span>
             </button>
 
+            {isMenuOpen && (
+              <div 
+                className="menu-overlay"
+                onClick={() => setIsMenuOpen(false)}
+              ></div>
+            )}
             <ul className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
               <li>
-                <Link to="/" className={isActive('/') ? 'active' : ''}>
+                <Link 
+                  to="/" 
+                  className={isActive('/') ? 'active' : ''}
+                  onClick={() => setIsMenuOpen(false)}
+                >
                   {t.nav.home}
                 </Link>
               </li>
               <li 
                 className={`nav-item-dropdown ${isServicesPage ? 'on-services-page' : ''}`}
-                onMouseEnter={() => setActiveDropdown('services')}
+                onMouseEnter={() => {
+                  if (window.innerWidth > 768) {
+                    setActiveDropdown('services')
+                  }
+                }}
                 onMouseLeave={() => {
                   // 在services页面时，不要自动关闭菜单
-                  if (!isServicesPage) {
+                  if (!isServicesPage && window.innerWidth > 768) {
                     // 延迟关闭，给鼠标移动到下拉菜单的时间
                     setTimeout(() => {
                       const dropdown = document.querySelector('.dropdown-menu')
@@ -116,8 +142,8 @@ const Header = () => {
                   to="/services" 
                   className={isServicesPage ? 'active' : ''}
                   onClick={(e) => {
-                    // 如果已经在services页面，点击时切换菜单而不是跳转
-                    if (isServicesPage) {
+                    // 移动端或已在services页面时，点击切换菜单
+                    if (window.innerWidth <= 768 || isServicesPage) {
                       e.preventDefault()
                       e.stopPropagation()
                       setActiveDropdown(activeDropdown === 'services' ? null : 'services')
@@ -125,19 +151,21 @@ const Header = () => {
                   }}
                 >
                   {t.nav.services}
-                  {isServicesPage && (
-                    <span className="dropdown-indicator">
-                      {activeDropdown === 'services' ? '▲' : '▼'}
-                    </span>
-                  )}
+                  <span className="dropdown-indicator">
+                    {activeDropdown === 'services' ? '▲' : '▼'}
+                  </span>
                 </Link>
                 {activeDropdown === 'services' && (
                   <div 
                     className="dropdown-menu"
-                    onMouseEnter={() => setActiveDropdown('services')}
+                    onMouseEnter={() => {
+                      if (window.innerWidth > 768) {
+                        setActiveDropdown('services')
+                      }
+                    }}
                     onMouseLeave={() => {
                       // 在services页面时，不要自动关闭菜单
-                      if (!isServicesPage) {
+                      if (!isServicesPage && window.innerWidth > 768) {
                         setTimeout(() => {
                           const navItem = document.querySelector('.nav-item-dropdown')
                           if (!navItem || !navItem.matches(':hover')) {
@@ -172,22 +200,38 @@ const Header = () => {
                 )}
               </li>
               <li>
-                <Link to="/institutions" className={isActive('/institutions') ? 'active' : ''}>
+                <Link 
+                  to="/institutions" 
+                  className={isActive('/institutions') ? 'active' : ''}
+                  onClick={() => setIsMenuOpen(false)}
+                >
                   {t.nav.institutions}
                 </Link>
               </li>
               <li>
-                <Link to="/courses" className={isActive('/courses') ? 'active' : ''}>
+                <Link 
+                  to="/courses" 
+                  className={isActive('/courses') ? 'active' : ''}
+                  onClick={() => setIsMenuOpen(false)}
+                >
                   {t.nav.courses}
                 </Link>
               </li>
               <li>
-                <Link to="/about" className={isActive('/about') ? 'active' : ''}>
+                <Link 
+                  to="/about" 
+                  className={isActive('/about') ? 'active' : ''}
+                  onClick={() => setIsMenuOpen(false)}
+                >
                   {t.nav.about}
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className={isActive('/contact') ? 'active' : ''}>
+                <Link 
+                  to="/contact" 
+                  className={isActive('/contact') ? 'active' : ''}
+                  onClick={() => setIsMenuOpen(false)}
+                >
                   {t.nav.contact}
                 </Link>
               </li>
