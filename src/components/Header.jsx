@@ -63,7 +63,7 @@ const Header = () => {
         <div className="container">
           <div className="header-top-content">
             <div className="header-contact">
-              <span>+61 2 9286 3799</span>
+              <span>+61 2 1234 5678</span>
               <span>info@codaedu.com.au</span>
             </div>
             <div className="header-languages">

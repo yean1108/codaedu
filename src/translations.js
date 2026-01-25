@@ -795,7 +795,7 @@ export const translations = {
         },
         phone: {
           title: '电话',
-          content: '+61 2 9286 3799'
+          content: '+61 2 1234 5678'
         },
         email: {
           title: '邮箱',
@@ -1652,7 +1652,7 @@ export const translations = {
         },
         phone: {
           title: 'Phone',
-          content: '+61 2 9286 3799'
+          content: '+61 2 1234 5678'
         },
         email: {
           title: 'Email',

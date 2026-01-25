@@ -36,7 +36,7 @@ const Footer = () => {
             <div className="footer-contact">
               <p>Suite 101, 123 Education Street</p>
               <p>Melbourne VIC Australia 3000</p>
-              <p>+61 2 9286 3799</p>
+              <p>+61 2 1234 5678</p>
               <p>info@codaedu.com.au</p>
             </div>
           </div>
