@@ -32,6 +32,7 @@ const UniversityDetail = () => {
 
   const universityName = language === 'zh' ? university.name : university.nameEn
   const universityDescription = language === 'zh' ? university.description : university.descriptionEn
+  const whyChooseReasons = language === 'zh' ? university.whyChoose : university.whyChooseEn
 
   return (
     <div className="university-detail-page">
@@ -60,11 +61,9 @@ const UniversityDetail = () => {
               
               <h3>{language === 'zh' ? '为什么选择这所大学？' : 'Why Choose This University?'}</h3>
               <ul className="features-list">
-                <li>{language === 'zh' ? '世界一流的学术声誉' : 'World-class academic reputation'}</li>
-                <li>{language === 'zh' ? '优秀的研究设施和资源' : 'Excellent research facilities and resources'}</li>
-                <li>{language === 'zh' ? '广泛的国际合作机会' : 'Extensive international cooperation opportunities'}</li>
-                <li>{language === 'zh' ? '优秀的就业前景' : 'Excellent employment prospects'}</li>
-                <li>{language === 'zh' ? '多元化的学习环境' : 'Diverse learning environment'}</li>
+                {whyChooseReasons && whyChooseReasons.map((reason, index) => (
+                  <li key={index}>{reason}</li>
+                ))}
               </ul>
 
               <h3>{language === 'zh' ? '申请信息' : 'Application Information'}</h3>
