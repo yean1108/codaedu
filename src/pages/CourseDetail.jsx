@@ -40,6 +40,9 @@ const CourseDetail = () => {
 
   const courseName = language === 'zh' ? course.name : course.nameEn
   const courseDescription = language === 'zh' ? course.description : course.descriptionEn
+  const courseDuration = language === 'zh' ? course.duration : course.durationEn
+  const courseEntryRequirements = language === 'zh' ? course.entryRequirements : course.entryRequirementsEn
+  const courseCareerProspects = language === 'zh' ? course.careerProspects : course.careerProspectsEn
 
   return (
     <div className="course-detail-page">
@@ -67,17 +70,25 @@ const CourseDetail = () => {
               <p>{courseDescription}</p>
               
               <h3>{t.courses.courseDetail.duration}</h3>
-              <p>{language === 'zh' ? '根据课程级别和类型，学制通常为1-4年不等。' : 'Duration typically ranges from 1-4 years depending on course level and type.'}</p>
+              <p>{courseDuration || (language === 'zh' ? '根据课程级别和类型，学制通常为1-4年不等。' : 'Duration typically ranges from 1-4 years depending on course level and type.')}</p>
 
               <h3>{t.courses.courseDetail.entryRequirements}</h3>
-              <ul className="requirements-list">
-                <li>{language === 'zh' ? '完成高中或同等学历' : 'Completion of high school or equivalent'}</li>
-                <li>{language === 'zh' ? '满足英语语言要求（如IELTS、TOEFL）' : 'Meet English language requirements (e.g., IELTS, TOEFL)'}</li>
-                <li>{language === 'zh' ? '部分课程可能需要相关背景或工作经验' : 'Some courses may require relevant background or work experience'}</li>
-              </ul>
+              {courseEntryRequirements && courseEntryRequirements.length > 0 ? (
+                <ul className="requirements-list">
+                  {courseEntryRequirements.map((requirement, index) => (
+                    <li key={index}>{requirement}</li>
+                  ))}
+                </ul>
+              ) : (
+                <ul className="requirements-list">
+                  <li>{language === 'zh' ? '完成高中或同等学历' : 'Completion of high school or equivalent'}</li>
+                  <li>{language === 'zh' ? '满足英语语言要求（如IELTS、TOEFL）' : 'Meet English language requirements (e.g., IELTS, TOEFL)'}</li>
+                  <li>{language === 'zh' ? '部分课程可能需要相关背景或工作经验' : 'Some courses may require relevant background or work experience'}</li>
+                </ul>
+              )}
 
               <h3>{t.courses.courseDetail.careerProspects}</h3>
-              <p>{language === 'zh' ? '完成该课程后，毕业生可以在相关领域找到就业机会。澳洲的就业市场对这些专业人才需求量大，就业前景良好。' : 'Upon completion of this course, graduates can find employment opportunities in related fields. Australia\'s job market has high demand for these professionals with excellent employment prospects.'}</p>
+              <p>{courseCareerProspects || (language === 'zh' ? '完成该课程后，毕业生可以在相关领域找到就业机会。澳洲的就业市场对这些专业人才需求量大，就业前景良好。' : 'Upon completion of this course, graduates can find employment opportunities in related fields. Australia\'s job market has high demand for these professionals with excellent employment prospects.')}</p>
 
               <h3>{t.courses.courseDetail.institutions}</h3>
               <p>{language === 'zh' ? '我们与多所提供该课程的澳洲院校建立了合作关系，可以根据您的需求推荐最适合的院校。' : 'We have partnerships with multiple Australian institutions offering this course and can recommend the most suitable institution based on your needs.'}</p>

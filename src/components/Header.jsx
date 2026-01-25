@@ -127,28 +127,6 @@ const Header = () => {
               ></div>
             )}
             <ul className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
-              <li className="mobile-lang-switcher">
-                <div className="mobile-lang-buttons">
-                  <button 
-                    className={`lang-btn-mobile ${language === 'zh' ? 'active' : ''}`}
-                    onClick={() => {
-                      setLanguage('zh')
-                      setIsMenuOpen(false)
-                    }}
-                  >
-                    中文
-                  </button>
-                  <button 
-                    className={`lang-btn-mobile ${language === 'en' ? 'active' : ''}`}
-                    onClick={() => {
-                      setLanguage('en')
-                      setIsMenuOpen(false)
-                    }}
-                  >
-                    English
-                  </button>
-                </div>
-              </li>
               <li>
                 <Link 
                   to="/" 

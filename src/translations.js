@@ -205,49 +205,161 @@ export const translations = {
             name: '澳大利亚国立大学',
             nameEn: 'Australian National University',
             description: '澳洲排名第一的大学，以研究见长',
-            descriptionEn: 'Australia\'s top-ranked university, renowned for research excellence'
+            descriptionEn: 'Australia\'s top-ranked university, renowned for research excellence',
+            whyChoose: [
+              '澳洲排名第一的大学，QS世界大学排名常年位居前30',
+              '研究实力卓越，拥有7位诺贝尔奖得主',
+              '位于首都堪培拉，政治和学术资源丰富',
+              '小班教学，师生比例低，教学质量高',
+              '毕业生就业率和起薪在澳洲名列前茅'
+            ],
+            whyChooseEn: [
+              'Australia\'s #1 university, consistently ranked in top 30 globally by QS',
+              'Research excellence with 7 Nobel Prize winners',
+              'Located in Canberra, rich political and academic resources',
+              'Small class sizes with low student-teacher ratio',
+              'Top graduate employment rates and starting salaries in Australia'
+            ]
           },
           melbourne: {
             name: '墨尔本大学',
             nameEn: 'University of Melbourne',
             description: '澳洲最古老的大学之一，综合实力强',
-            descriptionEn: 'One of Australia\'s oldest universities with strong overall strength'
+            descriptionEn: 'One of Australia\'s oldest universities with strong overall strength',
+            whyChoose: [
+              '澳洲最古老的大学之一，拥有170多年的历史传统',
+              '综合实力强，各学科领域均衡发展',
+              '位于墨尔本市中心，文化氛围浓厚',
+              '毕业生网络强大，校友遍布全球',
+              '与行业联系紧密，实习和就业机会丰富'
+            ],
+            whyChooseEn: [
+              'One of Australia\'s oldest universities with 170+ years of tradition',
+              'Strong overall strength across all disciplines',
+              'Located in Melbourne CBD with rich cultural atmosphere',
+              'Powerful alumni network spanning the globe',
+              'Strong industry connections with abundant internship and job opportunities'
+            ]
           },
           sydney: {
             name: '悉尼大学',
             nameEn: 'University of Sydney',
             description: '澳洲历史最悠久的大学，学术声誉高',
-            descriptionEn: 'Australia\'s oldest university with high academic reputation'
+            descriptionEn: 'Australia\'s oldest university with high academic reputation',
+            whyChoose: [
+              '澳洲历史最悠久的大学，成立于1850年',
+              '学术声誉卓越，医学、法律、商科等领域领先',
+              '位于悉尼市中心，地理位置优越',
+              '拥有世界一流的教学设施和图书馆',
+              '国际化程度高，学生来自130多个国家'
+            ],
+            whyChooseEn: [
+              'Australia\'s oldest university, founded in 1850',
+              'Excellent academic reputation, leading in medicine, law, and business',
+              'Prime location in Sydney CBD',
+              'World-class teaching facilities and libraries',
+              'Highly internationalized with students from 130+ countries'
+            ]
           },
           unsw: {
             name: '新南威尔士大学',
             nameEn: 'UNSW Sydney',
             description: '工程和商科领域表现突出',
-            descriptionEn: 'Outstanding in engineering and business fields'
+            descriptionEn: 'Outstanding in engineering and business fields',
+            whyChoose: [
+              '工程和商科领域世界领先，就业率极高',
+              '与行业联系紧密，提供丰富的实习机会',
+              '创新教育模式，注重实践和项目学习',
+              '位于悉尼，就业机会多，起薪高',
+              '创业氛围浓厚，支持学生创业项目'
+            ],
+            whyChooseEn: [
+              'World-leading in engineering and business with excellent employment rates',
+              'Strong industry connections with abundant internship opportunities',
+              'Innovative education model focusing on practice and project-based learning',
+              'Located in Sydney with many job opportunities and high starting salaries',
+              'Strong entrepreneurial culture supporting student startups'
+            ]
           },
           uq: {
             name: '昆士兰大学',
             nameEn: 'University of Queensland',
             description: '研究实力强，环境优美',
-            descriptionEn: 'Strong research capabilities in a beautiful environment'
+            descriptionEn: 'Strong research capabilities in a beautiful environment',
+            whyChoose: [
+              '研究实力强，在生物科学、环境科学等领域领先',
+              '校园环境优美，被评为澳洲最美校园之一',
+              '生活成本相对较低，性价比高',
+              '气候宜人，适合学习和生活',
+              '毕业生就业率高，特别是在科研和医疗领域'
+            ],
+            whyChooseEn: [
+              'Strong research capabilities, leading in biological and environmental sciences',
+              'Beautiful campus, rated as one of Australia\'s most beautiful',
+              'Lower cost of living with excellent value',
+              'Pleasant climate ideal for study and life',
+              'High graduate employment rates, especially in research and healthcare'
+            ]
           },
           monash: {
             name: '蒙纳士大学',
             nameEn: 'Monash University',
             description: '国际化程度高，专业选择丰富',
-            descriptionEn: 'Highly internationalized with diverse program options'
+            descriptionEn: 'Highly internationalized with diverse program options',
+            whyChoose: [
+              '国际化程度高，国际学生比例超过30%',
+              '专业选择丰富，提供400多个专业方向',
+              '在多个国家设有校区，提供交换机会',
+              '药学、护理、教育等专业世界领先',
+              '就业支持完善，提供职业规划和指导服务'
+            ],
+            whyChooseEn: [
+              'Highly internationalized with over 30% international students',
+              'Diverse program options with 400+ majors',
+              'Campuses in multiple countries offering exchange opportunities',
+              'World-leading in pharmacy, nursing, and education',
+              'Comprehensive career support with planning and guidance services'
+            ]
           },
           uwa: {
             name: '西澳大学',
             nameEn: 'University of Western Australia',
             description: '位于珀斯，研究实力强',
-            descriptionEn: 'Located in Perth with strong research capabilities'
+            descriptionEn: 'Located in Perth with strong research capabilities',
+            whyChoose: [
+              '位于珀斯，生活成本低，生活质量高',
+              '研究实力强，在工程、矿业、农业等领域领先',
+              '小班教学，师生互动密切',
+              '就业机会多，特别是矿业和工程行业',
+              '自然环境优美，适合学习和生活'
+            ],
+            whyChooseEn: [
+              'Located in Perth with low cost of living and high quality of life',
+              'Strong research capabilities, leading in engineering, mining, and agriculture',
+              'Small class sizes with close student-teacher interaction',
+              'Abundant job opportunities, especially in mining and engineering',
+              'Beautiful natural environment ideal for study and life'
+            ]
           },
           adelaide: {
             name: '阿德莱德大学',
             nameEn: 'University of Adelaide',
             description: '八大名校之一，学术声誉高',
-            descriptionEn: 'One of the Group of Eight with high academic reputation'
+            descriptionEn: 'One of the Group of Eight with high academic reputation',
+            whyChoose: [
+              '八大名校之一，学术声誉卓越',
+              '生活成本低，性价比高',
+              '在医学、工程、农业等领域研究实力强',
+              '小城市环境，学习氛围浓厚',
+              '移民加分优势，南澳州担保政策友好'
+            ],
+            whyChooseEn: [
+              'One of the Group of Eight with excellent academic reputation',
+              'Low cost of living with excellent value',
+              'Strong research capabilities in medicine, engineering, and agriculture',
+              'Small city environment with strong study atmosphere',
+              'Migration bonus advantages with friendly South Australia state sponsorship'
+            ]
           }
         }
       },
@@ -270,31 +382,113 @@ export const translations = {
               name: '护理',
               nameEn: 'Nursing',
               description: '护理专业在澳洲需求量大，就业前景好，是热门移民专业。',
-              descriptionEn: 'Nursing is in high demand in Australia with excellent employment prospects and is a popular migration pathway.'
+              descriptionEn: 'Nursing is in high demand in Australia with excellent employment prospects and is a popular migration pathway.',
+              duration: '学制：本科3-4年，硕士1.5-2年',
+              durationEn: 'Duration: Bachelor\'s 3-4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                '完成高中或同等学历',
+                'IELTS 7.0（单项不低于7.0）或同等英语水平',
+                '部分院校要求完成生物、化学等先修课程',
+                '可能需要健康检查和疫苗接种证明'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 7.0 (with no band less than 7.0) or equivalent English proficiency',
+                'Some institutions require prerequisite courses in biology and chemistry',
+                'Health check and vaccination certificates may be required'
+              ],
+              careerProspects: '护理专业在澳洲长期短缺，就业率接近100%。毕业生可在医院、诊所、养老院、社区健康中心等机构工作。注册护士年薪通常在$65,000-$95,000澳元之间，且护理专业在技术移民职业清单上，移民机会大。',
+              careerProspectsEn: 'Nursing is in long-term shortage in Australia with near 100% employment rate. Graduates can work in hospitals, clinics, aged care facilities, and community health centers. Registered nurses typically earn $65,000-$95,000 AUD annually, and nursing is on the skilled migration list with excellent migration opportunities.'
             },
             engineering: {
               name: '工程',
               nameEn: 'Engineering',
               description: '工程类专业包括土木、机械、电气等，技术移民机会多。',
-              descriptionEn: 'Engineering fields including civil, mechanical, electrical offer many skilled migration opportunities.'
+              descriptionEn: 'Engineering fields including civil, mechanical, electrical offer many skilled migration opportunities.',
+              duration: '学制：本科4年，硕士1.5-2年',
+              durationEn: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                '完成高中或同等学历，数学和物理成绩优秀',
+                'IELTS 6.5（单项不低于6.0）或同等英语水平',
+                '部分专业可能需要相关背景或工作经验',
+                '工程硕士通常要求相关本科学位'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent with excellent grades in mathematics and physics',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Some specializations may require relevant background or work experience',
+                'Master\'s programs typically require a relevant bachelor\'s degree'
+              ],
+              careerProspects: '工程专业在澳洲就业市场非常抢手，特别是土木、采矿、石油工程等专业。毕业生起薪通常在$70,000-$100,000澳元之间，且多数工程专业在技术移民职业清单上。可在建筑公司、矿业公司、咨询公司、政府部门等就业。',
+              careerProspectsEn: 'Engineering is highly sought after in Australia, especially civil, mining, and petroleum engineering. Graduates typically start at $70,000-$100,000 AUD, and most engineering fields are on the skilled migration list. Employment opportunities include construction companies, mining companies, consulting firms, and government departments.'
             },
             it: {
               name: 'IT',
               nameEn: 'Information Technology',
               description: 'IT行业在澳洲发展迅速，技术移民需求量大。',
-              descriptionEn: 'The IT industry is rapidly growing in Australia with high demand for skilled migration.'
+              descriptionEn: 'The IT industry is rapidly growing in Australia with high demand for skilled migration.',
+              duration: '学制：本科3年，硕士1.5-2年',
+              durationEn: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                '完成高中或同等学历',
+                'IELTS 6.5（单项不低于6.0）或同等英语水平',
+                '数学基础良好',
+                '部分专业可能需要编程或计算机相关背景'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'Some specializations may require programming or computer-related background'
+              ],
+              careerProspects: 'IT行业是澳洲增长最快的行业之一，就业机会丰富。毕业生可在软件开发、网络安全、数据分析、云计算等领域工作。起薪通常在$65,000-$90,000澳元，经验丰富者可达$120,000+。IT专业在技术移民职业清单上，移民前景好。',
+              careerProspectsEn: 'IT is one of Australia\'s fastest-growing industries with abundant job opportunities. Graduates can work in software development, cybersecurity, data analytics, cloud computing, etc. Starting salaries typically range from $65,000-$90,000 AUD, with experienced professionals earning $120,000+. IT is on the skilled migration list with excellent migration prospects.'
             },
             accounting: {
               name: '会计',
               nameEn: 'Accounting',
               description: '会计专业是传统移民专业，就业稳定。',
-              descriptionEn: 'Accounting is a traditional migration pathway with stable employment.'
+              descriptionEn: 'Accounting is a traditional migration pathway with stable employment.',
+              duration: '学制：本科3年，硕士1.5-2年',
+              durationEn: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                '完成高中或同等学历',
+                'IELTS 6.5（单项不低于6.0）或同等英语水平',
+                '数学基础良好',
+                '无特定专业背景要求，适合转专业学生'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'No specific background required, suitable for career changers'
+              ],
+              careerProspects: '会计专业就业稳定，可在会计师事务所、企业财务部门、银行、政府机构等就业。完成CPA或CA认证后，职业发展前景更好。起薪通常在$55,000-$75,000澳元，有经验后可达$100,000+。会计在技术移民职业清单上，是传统移民专业。',
+              careerProspectsEn: 'Accounting offers stable employment in accounting firms, corporate finance departments, banks, and government agencies. Career prospects improve significantly after CPA or CA certification. Starting salaries typically range from $55,000-$75,000 AUD, reaching $100,000+ with experience. Accounting is on the skilled migration list and is a traditional migration pathway.'
             },
             education: {
               name: '教育',
               nameEn: 'Education',
               description: '教育专业包括幼教、中小学教育等，移民机会多。',
-              descriptionEn: 'Education fields including early childhood and primary/secondary education offer many migration opportunities.'
+              descriptionEn: 'Education fields including early childhood and primary/secondary education offer many migration opportunities.',
+              duration: '学制：本科4年，硕士1.5-2年',
+              durationEn: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                '完成高中或同等学历',
+                'IELTS 7.5（单项不低于7.0，读写不低于7.5）或同等英语水平',
+                '需要通过语言和数学能力测试',
+                '部分院校要求完成教学实习',
+                '需要无犯罪记录证明'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 7.5 (with no band less than 7.0, reading and writing no less than 7.5) or equivalent English proficiency',
+                'Must pass language and mathematics proficiency tests',
+                'Some institutions require teaching practicum',
+                'Police clearance certificate required'
+              ],
+              careerProspects: '教育专业在澳洲需求量大，特别是幼教和中小学教师。毕业生可在幼儿园、小学、中学任教，起薪通常在$65,000-$80,000澳元。完成注册教师认证后，就业和移民前景都很好。教育专业在技术移民职业清单上，是热门移民专业。',
+              careerProspectsEn: 'Education is in high demand in Australia, especially early childhood and primary/secondary teachers. Graduates can teach in kindergartens, primary and secondary schools, with starting salaries typically ranging from $65,000-$80,000 AUD. After teacher registration, both employment and migration prospects are excellent. Education is on the skilled migration list and is a popular migration pathway.'
             }
           }
         },
@@ -307,31 +501,115 @@ export const translations = {
               name: '商科',
               nameEn: 'Business',
               description: '商科包括管理、金融、市场营销等，就业面广。',
-              descriptionEn: 'Business includes management, finance, marketing with broad employment opportunities.'
+              descriptionEn: 'Business includes management, finance, marketing with broad employment opportunities.',
+              duration: '学制：本科3年，硕士1.5-2年',
+              durationEn: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                '完成高中或同等学历',
+                'IELTS 6.5（单项不低于6.0）或同等英语水平',
+                '数学基础良好',
+                '部分MBA课程要求工作经验'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'Some MBA programs require work experience'
+              ],
+              careerProspects: '商科专业就业面广，可在金融、咨询、市场营销、人力资源、运营管理等领域工作。毕业生起薪通常在$55,000-$75,000澳元，有经验后可达$100,000+。商科专业选择多样，适合不同职业规划的学生。',
+              careerProspectsEn: 'Business offers broad employment opportunities in finance, consulting, marketing, human resources, and operations management. Starting salaries typically range from $55,000-$75,000 AUD, reaching $100,000+ with experience. Business programs offer diverse specializations suitable for various career paths.'
             },
             engineering: {
               name: '工程',
               nameEn: 'Engineering',
               description: '工程类专业提供实践性强的技能培训。',
-              descriptionEn: 'Engineering programs provide highly practical skills training.'
+              descriptionEn: 'Engineering programs provide highly practical skills training.',
+              duration: '学制：本科4年，硕士1.5-2年',
+              durationEn: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                '完成高中或同等学历，数学和物理成绩优秀',
+                'IELTS 6.5（单项不低于6.0）或同等英语水平',
+                '部分专业可能需要相关背景',
+                '工程硕士通常要求相关本科学位'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent with excellent grades in mathematics and physics',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Some specializations may require relevant background',
+                'Master\'s programs typically require a relevant bachelor\'s degree'
+              ],
+              careerProspects: '工程专业注重实践技能培养，毕业生就业竞争力强。可在建筑、制造、能源、交通、环境等各个领域工作。起薪通常在$70,000-$95,000澳元，经验丰富者可达$120,000+。工程专业在澳洲就业市场长期稳定。',
+              careerProspectsEn: 'Engineering programs focus on practical skills training, making graduates highly competitive. Employment opportunities span construction, manufacturing, energy, transportation, and environmental sectors. Starting salaries typically range from $70,000-$95,000 AUD, reaching $120,000+ with experience. Engineering offers long-term stability in Australia\'s job market.'
             },
             medicine: {
               name: '医学',
               nameEn: 'Medicine',
               description: '医学专业包括临床医学、护理、公共卫生等。',
-              descriptionEn: 'Medicine includes clinical medicine, nursing, public health.'
+              descriptionEn: 'Medicine includes clinical medicine, nursing, public health.',
+              duration: '学制：本科5-6年，硕士1.5-3年',
+              durationEn: 'Duration: Bachelor\'s 5-6 years, Master\'s 1.5-3 years',
+              entryRequirements: [
+                '完成高中或同等学历，生物、化学成绩优秀',
+                'IELTS 7.0（单项不低于7.0）或同等英语水平',
+                '需要通过医学入学考试（如UCAT、GAMSAT）',
+                '部分专业要求相关本科学位',
+                '需要健康检查和疫苗接种证明'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent with excellent grades in biology and chemistry',
+                'IELTS 7.0 (with no band less than 7.0) or equivalent English proficiency',
+                'Must pass medical entrance exams (e.g., UCAT, GAMSAT)',
+                'Some programs require a relevant bachelor\'s degree',
+                'Health check and vaccination certificates required'
+              ],
+              careerProspects: '医学专业就业前景极佳，医生、护士、公共卫生专家等在澳洲需求量大。医生起薪通常在$80,000-$120,000澳元，有经验后可达$200,000+。医学专业在技术移民职业清单上，移民机会大，但入学竞争激烈。',
+              careerProspectsEn: 'Medicine offers excellent career prospects, with high demand for doctors, nurses, and public health specialists in Australia. Doctors typically start at $80,000-$120,000 AUD, reaching $200,000+ with experience. Medicine is on the skilled migration list with excellent migration opportunities, though admission is highly competitive.'
             },
             law: {
               name: '法律',
               nameEn: 'Law',
               description: '法律专业培养法律专业人才，就业前景好。',
-              descriptionEn: 'Law programs train legal professionals with good employment prospects.'
+              descriptionEn: 'Law programs train legal professionals with good employment prospects.',
+              duration: '学制：本科4年，硕士1-2年',
+              durationEn: 'Duration: Bachelor\'s 4 years, Master\'s 1-2 years',
+              entryRequirements: [
+                '完成高中或同等学历',
+                'IELTS 7.0（单项不低于6.5）或同等英语水平',
+                '部分院校要求通过法律入学考试（LSAT）',
+                '需要良好的英语写作和逻辑思维能力'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 7.0 (with no band less than 6.5) or equivalent English proficiency',
+                'Some institutions require Law School Admission Test (LSAT)',
+                'Strong English writing and logical reasoning skills required'
+              ],
+              careerProspects: '法律专业毕业生可在律师事务所、企业法务部门、政府机构、非营利组织等就业。完成律师执业资格认证后，职业发展前景更好。起薪通常在$60,000-$85,000澳元，有经验后可达$150,000+。法律专业在澳洲就业市场稳定。',
+              careerProspectsEn: 'Law graduates can work in law firms, corporate legal departments, government agencies, and non-profit organizations. Career prospects improve significantly after legal practice certification. Starting salaries typically range from $60,000-$85,000 AUD, reaching $150,000+ with experience. Law offers stable employment in Australia.'
             },
             arts: {
               name: '艺术',
               nameEn: 'Arts',
               description: '艺术专业包括设计、音乐、视觉艺术等。',
-              descriptionEn: 'Arts includes design, music, visual arts.'
+              descriptionEn: 'Arts includes design, music, visual arts.',
+              duration: '学制：本科3-4年，硕士1.5-2年',
+              durationEn: 'Duration: Bachelor\'s 3-4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                '完成高中或同等学历',
+                'IELTS 6.5（单项不低于6.0）或同等英语水平',
+                '需要提交作品集或参加面试',
+                '部分专业可能需要相关艺术背景',
+                '音乐专业可能需要试音'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Portfolio submission or interview required',
+                'Some programs may require relevant arts background',
+                'Music programs may require auditions'
+              ],
+              careerProspects: '艺术专业毕业生可在设计公司、广告公司、媒体、艺术机构、教育等领域工作。起薪通常在$45,000-$65,000澳元，有经验后可达$80,000+。艺术专业适合有创意天赋的学生，就业方向多样，但需要建立作品集和行业网络。',
+              careerProspectsEn: 'Arts graduates can work in design firms, advertising agencies, media, arts organizations, and education. Starting salaries typically range from $45,000-$65,000 AUD, reaching $80,000+ with experience. Arts suits creative students with diverse career paths, though building a portfolio and industry network is essential.'
             }
           }
         },
@@ -344,31 +622,113 @@ export const translations = {
               name: '护理',
               nameEn: 'Nursing',
               description: '护理专业需求量大，薪资待遇好。',
-              descriptionEn: 'High demand for nursing with excellent salary packages.'
+              descriptionEn: 'High demand for nursing with excellent salary packages.',
+              duration: '学制：本科3-4年，硕士1.5-2年',
+              durationEn: 'Duration: Bachelor\'s 3-4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                '完成高中或同等学历',
+                'IELTS 7.0（单项不低于7.0）或同等英语水平',
+                '部分院校要求完成生物、化学等先修课程',
+                '可能需要健康检查和疫苗接种证明'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 7.0 (with no band less than 7.0) or equivalent English proficiency',
+                'Some institutions require prerequisite courses in biology and chemistry',
+                'Health check and vaccination certificates may be required'
+              ],
+              careerProspects: '护理是澳洲最热门的专业之一，就业率接近100%。注册护士年薪通常在$70,000-$100,000澳元，高级护士可达$120,000+。工作稳定，福利待遇好，且护理专业在技术移民职业清单上，是理想的移民专业。',
+              careerProspectsEn: 'Nursing is one of Australia\'s most popular programs with near 100% employment rate. Registered nurses typically earn $70,000-$100,000 AUD annually, with senior nurses reaching $120,000+. Stable employment with excellent benefits, and nursing is on the skilled migration list, making it an ideal migration pathway.'
             },
             it: {
               name: 'IT',
               nameEn: 'Information Technology',
               description: 'IT行业发展迅速，就业机会多。',
-              descriptionEn: 'Rapidly growing IT industry with many job opportunities.'
+              descriptionEn: 'Rapidly growing IT industry with many job opportunities.',
+              duration: '学制：本科3年，硕士1.5-2年',
+              durationEn: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                '完成高中或同等学历',
+                'IELTS 6.5（单项不低于6.0）或同等英语水平',
+                '数学基础良好',
+                '部分专业可能需要编程或计算机相关背景'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'Some specializations may require programming or computer-related background'
+              ],
+              careerProspects: 'IT是澳洲增长最快的行业，就业机会丰富且薪资待遇优厚。毕业生可在科技公司、金融机构、咨询公司等就业。起薪通常在$70,000-$95,000澳元，有经验后可达$130,000+。IT专业在技术移民职业清单上，是当前最热门的移民专业之一。',
+              careerProspectsEn: 'IT is Australia\'s fastest-growing industry with abundant job opportunities and excellent salaries. Graduates can work in tech companies, financial institutions, and consulting firms. Starting salaries typically range from $70,000-$95,000 AUD, reaching $130,000+ with experience. IT is on the skilled migration list and is currently one of the most popular migration pathways.'
             },
             engineering: {
               name: '工程',
               nameEn: 'Engineering',
               description: '工程专业就业稳定，薪资高。',
-              descriptionEn: 'Stable employment in engineering with high salaries.'
+              descriptionEn: 'Stable employment in engineering with high salaries.',
+              duration: '学制：本科4年，硕士1.5-2年',
+              durationEn: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                '完成高中或同等学历，数学和物理成绩优秀',
+                'IELTS 6.5（单项不低于6.0）或同等英语水平',
+                '部分专业可能需要相关背景或工作经验',
+                '工程硕士通常要求相关本科学位'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent with excellent grades in mathematics and physics',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Some specializations may require relevant background or work experience',
+                'Master\'s programs typically require a relevant bachelor\'s degree'
+              ],
+              careerProspects: '工程专业在澳洲就业市场长期稳定，薪资待遇优厚。特别是采矿、石油、土木等专业，起薪通常在$75,000-$105,000澳元，有经验后可达$140,000+。工程专业在技术移民职业清单上，移民机会大，是热门选择。',
+              careerProspectsEn: 'Engineering offers long-term stability in Australia\'s job market with excellent salaries. Especially mining, petroleum, and civil engineering, starting salaries typically range from $75,000-$105,000 AUD, reaching $140,000+ with experience. Engineering is on the skilled migration list with excellent migration opportunities, making it a popular choice.'
             },
             business: {
               name: '商科',
               nameEn: 'Business',
               description: '商科专业就业面广，发展空间大。',
-              descriptionEn: 'Broad employment opportunities in business with great development potential.'
+              descriptionEn: 'Broad employment opportunities in business with great development potential.',
+              duration: '学制：本科3年，硕士1.5-2年',
+              durationEn: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                '完成高中或同等学历',
+                'IELTS 6.5（单项不低于6.0）或同等英语水平',
+                '数学基础良好',
+                '部分MBA课程要求工作经验'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'Some MBA programs require work experience'
+              ],
+              careerProspects: '商科专业就业面广，可在金融、咨询、市场营销、管理等多个领域发展。毕业生起薪通常在$60,000-$80,000澳元，有经验后可达$120,000+。商科专业选择多样，适合不同职业规划，是澳洲最受欢迎的专业之一。',
+              careerProspectsEn: 'Business offers broad employment opportunities across finance, consulting, marketing, and management. Starting salaries typically range from $60,000-$80,000 AUD, reaching $120,000+ with experience. Business programs offer diverse specializations suitable for various career paths, making it one of Australia\'s most popular programs.'
             },
             education: {
               name: '教育',
               nameEn: 'Education',
               description: '教育专业就业稳定，社会地位高。',
-              descriptionEn: 'Stable employment in education with high social status.'
+              descriptionEn: 'Stable employment in education with high social status.',
+              duration: '学制：本科4年，硕士1.5-2年',
+              durationEn: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                '完成高中或同等学历',
+                'IELTS 7.5（单项不低于7.0，读写不低于7.5）或同等英语水平',
+                '需要通过语言和数学能力测试',
+                '部分院校要求完成教学实习',
+                '需要无犯罪记录证明'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 7.5 (with no band less than 7.0, reading and writing no less than 7.5) or equivalent English proficiency',
+                'Must pass language and mathematics proficiency tests',
+                'Some institutions require teaching practicum',
+                'Police clearance certificate required'
+              ],
+              careerProspects: '教育专业在澳洲就业稳定，社会地位高，工作环境好。教师起薪通常在$70,000-$85,000澳元，有经验后可达$100,000+。完成注册教师认证后，就业和移民前景都很好。教育专业在技术移民职业清单上，是热门移民专业。',
+              careerProspectsEn: 'Education offers stable employment in Australia with high social status and excellent working conditions. Teachers typically start at $70,000-$85,000 AUD, reaching $100,000+ with experience. After teacher registration, both employment and migration prospects are excellent. Education is on the skilled migration list and is a popular migration pathway.'
             }
           }
         }
@@ -702,49 +1062,161 @@ export const translations = {
             name: 'Australian National University',
             nameEn: 'Australian National University',
             description: 'Australia\'s top-ranked university, renowned for research excellence',
-            descriptionEn: 'Australia\'s top-ranked university, renowned for research excellence'
+            descriptionEn: 'Australia\'s top-ranked university, renowned for research excellence',
+            whyChoose: [
+              'Australia\'s #1 university, consistently ranked in top 30 globally by QS',
+              'Research excellence with 7 Nobel Prize winners',
+              'Located in Canberra, rich political and academic resources',
+              'Small class sizes with low student-teacher ratio',
+              'Top graduate employment rates and starting salaries in Australia'
+            ],
+            whyChooseEn: [
+              'Australia\'s #1 university, consistently ranked in top 30 globally by QS',
+              'Research excellence with 7 Nobel Prize winners',
+              'Located in Canberra, rich political and academic resources',
+              'Small class sizes with low student-teacher ratio',
+              'Top graduate employment rates and starting salaries in Australia'
+            ]
           },
           melbourne: {
             name: 'University of Melbourne',
             nameEn: 'University of Melbourne',
             description: 'One of Australia\'s oldest universities with strong overall strength',
-            descriptionEn: 'One of Australia\'s oldest universities with strong overall strength'
+            descriptionEn: 'One of Australia\'s oldest universities with strong overall strength',
+            whyChoose: [
+              'One of Australia\'s oldest universities with 170+ years of tradition',
+              'Strong overall strength across all disciplines',
+              'Located in Melbourne CBD with rich cultural atmosphere',
+              'Powerful alumni network spanning the globe',
+              'Strong industry connections with abundant internship and job opportunities'
+            ],
+            whyChooseEn: [
+              'One of Australia\'s oldest universities with 170+ years of tradition',
+              'Strong overall strength across all disciplines',
+              'Located in Melbourne CBD with rich cultural atmosphere',
+              'Powerful alumni network spanning the globe',
+              'Strong industry connections with abundant internship and job opportunities'
+            ]
           },
           sydney: {
             name: 'University of Sydney',
             nameEn: 'University of Sydney',
             description: 'Australia\'s oldest university with high academic reputation',
-            descriptionEn: 'Australia\'s oldest university with high academic reputation'
+            descriptionEn: 'Australia\'s oldest university with high academic reputation',
+            whyChoose: [
+              'Australia\'s oldest university, founded in 1850',
+              'Excellent academic reputation, leading in medicine, law, and business',
+              'Prime location in Sydney CBD',
+              'World-class teaching facilities and libraries',
+              'Highly internationalized with students from 130+ countries'
+            ],
+            whyChooseEn: [
+              'Australia\'s oldest university, founded in 1850',
+              'Excellent academic reputation, leading in medicine, law, and business',
+              'Prime location in Sydney CBD',
+              'World-class teaching facilities and libraries',
+              'Highly internationalized with students from 130+ countries'
+            ]
           },
           unsw: {
             name: 'UNSW Sydney',
             nameEn: 'UNSW Sydney',
             description: 'Outstanding in engineering and business fields',
-            descriptionEn: 'Outstanding in engineering and business fields'
+            descriptionEn: 'Outstanding in engineering and business fields',
+            whyChoose: [
+              'World-leading in engineering and business with excellent employment rates',
+              'Strong industry connections with abundant internship opportunities',
+              'Innovative education model focusing on practice and project-based learning',
+              'Located in Sydney with many job opportunities and high starting salaries',
+              'Strong entrepreneurial culture supporting student startups'
+            ],
+            whyChooseEn: [
+              'World-leading in engineering and business with excellent employment rates',
+              'Strong industry connections with abundant internship opportunities',
+              'Innovative education model focusing on practice and project-based learning',
+              'Located in Sydney with many job opportunities and high starting salaries',
+              'Strong entrepreneurial culture supporting student startups'
+            ]
           },
           uq: {
             name: 'University of Queensland',
             nameEn: 'University of Queensland',
             description: 'Strong research capabilities in a beautiful environment',
-            descriptionEn: 'Strong research capabilities in a beautiful environment'
+            descriptionEn: 'Strong research capabilities in a beautiful environment',
+            whyChoose: [
+              'Strong research capabilities, leading in biological and environmental sciences',
+              'Beautiful campus, rated as one of Australia\'s most beautiful',
+              'Lower cost of living with excellent value',
+              'Pleasant climate ideal for study and life',
+              'High graduate employment rates, especially in research and healthcare'
+            ],
+            whyChooseEn: [
+              'Strong research capabilities, leading in biological and environmental sciences',
+              'Beautiful campus, rated as one of Australia\'s most beautiful',
+              'Lower cost of living with excellent value',
+              'Pleasant climate ideal for study and life',
+              'High graduate employment rates, especially in research and healthcare'
+            ]
           },
           monash: {
             name: 'Monash University',
             nameEn: 'Monash University',
             description: 'Highly internationalized with diverse program options',
-            descriptionEn: 'Highly internationalized with diverse program options'
+            descriptionEn: 'Highly internationalized with diverse program options',
+            whyChoose: [
+              'Highly internationalized with over 30% international students',
+              'Diverse program options with 400+ majors',
+              'Campuses in multiple countries offering exchange opportunities',
+              'World-leading in pharmacy, nursing, and education',
+              'Comprehensive career support with planning and guidance services'
+            ],
+            whyChooseEn: [
+              'Highly internationalized with over 30% international students',
+              'Diverse program options with 400+ majors',
+              'Campuses in multiple countries offering exchange opportunities',
+              'World-leading in pharmacy, nursing, and education',
+              'Comprehensive career support with planning and guidance services'
+            ]
           },
           uwa: {
             name: 'University of Western Australia',
             nameEn: 'University of Western Australia',
             description: 'Located in Perth with strong research capabilities',
-            descriptionEn: 'Located in Perth with strong research capabilities'
+            descriptionEn: 'Located in Perth with strong research capabilities',
+            whyChoose: [
+              'Located in Perth with low cost of living and high quality of life',
+              'Strong research capabilities, leading in engineering, mining, and agriculture',
+              'Small class sizes with close student-teacher interaction',
+              'Abundant job opportunities, especially in mining and engineering',
+              'Beautiful natural environment ideal for study and life'
+            ],
+            whyChooseEn: [
+              'Located in Perth with low cost of living and high quality of life',
+              'Strong research capabilities, leading in engineering, mining, and agriculture',
+              'Small class sizes with close student-teacher interaction',
+              'Abundant job opportunities, especially in mining and engineering',
+              'Beautiful natural environment ideal for study and life'
+            ]
           },
           adelaide: {
             name: 'University of Adelaide',
             nameEn: 'University of Adelaide',
             description: 'One of the Group of Eight with high academic reputation',
-            descriptionEn: 'One of the Group of Eight with high academic reputation'
+            descriptionEn: 'One of the Group of Eight with high academic reputation',
+            whyChoose: [
+              'One of the Group of Eight with excellent academic reputation',
+              'Low cost of living with excellent value',
+              'Strong research capabilities in medicine, engineering, and agriculture',
+              'Small city environment with strong study atmosphere',
+              'Migration bonus advantages with friendly South Australia state sponsorship'
+            ],
+            whyChooseEn: [
+              'One of the Group of Eight with excellent academic reputation',
+              'Low cost of living with excellent value',
+              'Strong research capabilities in medicine, engineering, and agriculture',
+              'Small city environment with strong study atmosphere',
+              'Migration bonus advantages with friendly South Australia state sponsorship'
+            ]
           }
         }
       },
@@ -767,31 +1239,113 @@ export const translations = {
               name: 'Nursing',
               nameEn: 'Nursing',
               description: 'Nursing is in high demand in Australia with excellent employment prospects and is a popular migration pathway.',
-              descriptionEn: 'Nursing is in high demand in Australia with excellent employment prospects and is a popular migration pathway.'
+              descriptionEn: 'Nursing is in high demand in Australia with excellent employment prospects and is a popular migration pathway.',
+              duration: 'Duration: Bachelor\'s 3-4 years, Master\'s 1.5-2 years',
+              durationEn: 'Duration: Bachelor\'s 3-4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                'Completion of high school or equivalent',
+                'IELTS 7.0 (with no band less than 7.0) or equivalent English proficiency',
+                'Some institutions require prerequisite courses in biology and chemistry',
+                'Health check and vaccination certificates may be required'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 7.0 (with no band less than 7.0) or equivalent English proficiency',
+                'Some institutions require prerequisite courses in biology and chemistry',
+                'Health check and vaccination certificates may be required'
+              ],
+              careerProspects: 'Nursing is in long-term shortage in Australia with near 100% employment rate. Graduates can work in hospitals, clinics, aged care facilities, and community health centers. Registered nurses typically earn $65,000-$95,000 AUD annually, and nursing is on the skilled migration list with excellent migration opportunities.',
+              careerProspectsEn: 'Nursing is in long-term shortage in Australia with near 100% employment rate. Graduates can work in hospitals, clinics, aged care facilities, and community health centers. Registered nurses typically earn $65,000-$95,000 AUD annually, and nursing is on the skilled migration list with excellent migration opportunities.'
             },
             engineering: {
               name: 'Engineering',
               nameEn: 'Engineering',
               description: 'Engineering fields including civil, mechanical, electrical offer many skilled migration opportunities.',
-              descriptionEn: 'Engineering fields including civil, mechanical, electrical offer many skilled migration opportunities.'
+              descriptionEn: 'Engineering fields including civil, mechanical, electrical offer many skilled migration opportunities.',
+              duration: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              durationEn: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                'Completion of high school or equivalent with excellent grades in mathematics and physics',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Some specializations may require relevant background or work experience',
+                'Master\'s programs typically require a relevant bachelor\'s degree'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent with excellent grades in mathematics and physics',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Some specializations may require relevant background or work experience',
+                'Master\'s programs typically require a relevant bachelor\'s degree'
+              ],
+              careerProspects: 'Engineering is highly sought after in Australia, especially civil, mining, and petroleum engineering. Graduates typically start at $70,000-$100,000 AUD, and most engineering fields are on the skilled migration list. Employment opportunities include construction companies, mining companies, consulting firms, and government departments.',
+              careerProspectsEn: 'Engineering is highly sought after in Australia, especially civil, mining, and petroleum engineering. Graduates typically start at $70,000-$100,000 AUD, and most engineering fields are on the skilled migration list. Employment opportunities include construction companies, mining companies, consulting firms, and government departments.'
             },
             it: {
               name: 'IT',
               nameEn: 'Information Technology',
               description: 'The IT industry is rapidly growing in Australia with high demand for skilled migration.',
-              descriptionEn: 'The IT industry is rapidly growing in Australia with high demand for skilled migration.'
+              descriptionEn: 'The IT industry is rapidly growing in Australia with high demand for skilled migration.',
+              duration: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              durationEn: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'Some specializations may require programming or computer-related background'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'Some specializations may require programming or computer-related background'
+              ],
+              careerProspects: 'IT is one of Australia\'s fastest-growing industries with abundant job opportunities. Graduates can work in software development, cybersecurity, data analytics, cloud computing, etc. Starting salaries typically range from $65,000-$90,000 AUD, with experienced professionals earning $120,000+. IT is on the skilled migration list with excellent migration prospects.',
+              careerProspectsEn: 'IT is one of Australia\'s fastest-growing industries with abundant job opportunities. Graduates can work in software development, cybersecurity, data analytics, cloud computing, etc. Starting salaries typically range from $65,000-$90,000 AUD, with experienced professionals earning $120,000+. IT is on the skilled migration list with excellent migration prospects.'
             },
             accounting: {
               name: 'Accounting',
               nameEn: 'Accounting',
               description: 'Accounting is a traditional migration pathway with stable employment.',
-              descriptionEn: 'Accounting is a traditional migration pathway with stable employment.'
+              descriptionEn: 'Accounting is a traditional migration pathway with stable employment.',
+              duration: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              durationEn: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'No specific background required, suitable for career changers'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'No specific background required, suitable for career changers'
+              ],
+              careerProspects: 'Accounting offers stable employment in accounting firms, corporate finance departments, banks, and government agencies. Career prospects improve significantly after CPA or CA certification. Starting salaries typically range from $55,000-$75,000 AUD, reaching $100,000+ with experience. Accounting is on the skilled migration list and is a traditional migration pathway.',
+              careerProspectsEn: 'Accounting offers stable employment in accounting firms, corporate finance departments, banks, and government agencies. Career prospects improve significantly after CPA or CA certification. Starting salaries typically range from $55,000-$75,000 AUD, reaching $100,000+ with experience. Accounting is on the skilled migration list and is a traditional migration pathway.'
             },
             education: {
               name: 'Education',
               nameEn: 'Education',
               description: 'Education fields including early childhood and primary/secondary education offer many migration opportunities.',
-              descriptionEn: 'Education fields including early childhood and primary/secondary education offer many migration opportunities.'
+              descriptionEn: 'Education fields including early childhood and primary/secondary education offer many migration opportunities.',
+              duration: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              durationEn: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                'Completion of high school or equivalent',
+                'IELTS 7.5 (with no band less than 7.0, reading and writing no less than 7.5) or equivalent English proficiency',
+                'Must pass language and mathematics proficiency tests',
+                'Some institutions require teaching practicum',
+                'Police clearance certificate required'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 7.5 (with no band less than 7.0, reading and writing no less than 7.5) or equivalent English proficiency',
+                'Must pass language and mathematics proficiency tests',
+                'Some institutions require teaching practicum',
+                'Police clearance certificate required'
+              ],
+              careerProspects: 'Education is in high demand in Australia, especially early childhood and primary/secondary teachers. Graduates can teach in kindergartens, primary and secondary schools, with starting salaries typically ranging from $65,000-$80,000 AUD. After teacher registration, both employment and migration prospects are excellent. Education is on the skilled migration list and is a popular migration pathway.',
+              careerProspectsEn: 'Education is in high demand in Australia, especially early childhood and primary/secondary teachers. Graduates can teach in kindergartens, primary and secondary schools, with starting salaries typically ranging from $65,000-$80,000 AUD. After teacher registration, both employment and migration prospects are excellent. Education is on the skilled migration list and is a popular migration pathway.'
             }
           }
         },
@@ -804,31 +1358,115 @@ export const translations = {
               name: 'Business',
               nameEn: 'Business',
               description: 'Business includes management, finance, marketing with broad employment opportunities.',
-              descriptionEn: 'Business includes management, finance, marketing with broad employment opportunities.'
+              descriptionEn: 'Business includes management, finance, marketing with broad employment opportunities.',
+              duration: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              durationEn: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'Some MBA programs require work experience'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'Some MBA programs require work experience'
+              ],
+              careerProspects: 'Business offers broad employment opportunities in finance, consulting, marketing, human resources, and operations management. Starting salaries typically range from $55,000-$75,000 AUD, reaching $100,000+ with experience. Business programs offer diverse specializations suitable for various career paths.',
+              careerProspectsEn: 'Business offers broad employment opportunities in finance, consulting, marketing, human resources, and operations management. Starting salaries typically range from $55,000-$75,000 AUD, reaching $100,000+ with experience. Business programs offer diverse specializations suitable for various career paths.'
             },
             engineering: {
               name: 'Engineering',
               nameEn: 'Engineering',
               description: 'Engineering programs provide highly practical skills training.',
-              descriptionEn: 'Engineering programs provide highly practical skills training.'
+              descriptionEn: 'Engineering programs provide highly practical skills training.',
+              duration: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              durationEn: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                'Completion of high school or equivalent with excellent grades in mathematics and physics',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Some specializations may require relevant background',
+                'Master\'s programs typically require a relevant bachelor\'s degree'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent with excellent grades in mathematics and physics',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Some specializations may require relevant background',
+                'Master\'s programs typically require a relevant bachelor\'s degree'
+              ],
+              careerProspects: 'Engineering programs focus on practical skills training, making graduates highly competitive. Employment opportunities span construction, manufacturing, energy, transportation, and environmental sectors. Starting salaries typically range from $70,000-$95,000 AUD, reaching $120,000+ with experience. Engineering offers long-term stability in Australia\'s job market.',
+              careerProspectsEn: 'Engineering programs focus on practical skills training, making graduates highly competitive. Employment opportunities span construction, manufacturing, energy, transportation, and environmental sectors. Starting salaries typically range from $70,000-$95,000 AUD, reaching $120,000+ with experience. Engineering offers long-term stability in Australia\'s job market.'
             },
             medicine: {
               name: 'Medicine',
               nameEn: 'Medicine',
               description: 'Medicine includes clinical medicine, nursing, public health.',
-              descriptionEn: 'Medicine includes clinical medicine, nursing, public health.'
+              descriptionEn: 'Medicine includes clinical medicine, nursing, public health.',
+              duration: 'Duration: Bachelor\'s 5-6 years, Master\'s 1.5-3 years',
+              durationEn: 'Duration: Bachelor\'s 5-6 years, Master\'s 1.5-3 years',
+              entryRequirements: [
+                'Completion of high school or equivalent with excellent grades in biology and chemistry',
+                'IELTS 7.0 (with no band less than 7.0) or equivalent English proficiency',
+                'Must pass medical entrance exams (e.g., UCAT, GAMSAT)',
+                'Some programs require a relevant bachelor\'s degree',
+                'Health check and vaccination certificates required'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent with excellent grades in biology and chemistry',
+                'IELTS 7.0 (with no band less than 7.0) or equivalent English proficiency',
+                'Must pass medical entrance exams (e.g., UCAT, GAMSAT)',
+                'Some programs require a relevant bachelor\'s degree',
+                'Health check and vaccination certificates required'
+              ],
+              careerProspects: 'Medicine offers excellent career prospects, with high demand for doctors, nurses, and public health specialists in Australia. Doctors typically start at $80,000-$120,000 AUD, reaching $200,000+ with experience. Medicine is on the skilled migration list with excellent migration opportunities, though admission is highly competitive.',
+              careerProspectsEn: 'Medicine offers excellent career prospects, with high demand for doctors, nurses, and public health specialists in Australia. Doctors typically start at $80,000-$120,000 AUD, reaching $200,000+ with experience. Medicine is on the skilled migration list with excellent migration opportunities, though admission is highly competitive.'
             },
             law: {
               name: 'Law',
               nameEn: 'Law',
               description: 'Law programs train legal professionals with good employment prospects.',
-              descriptionEn: 'Law programs train legal professionals with good employment prospects.'
+              descriptionEn: 'Law programs train legal professionals with good employment prospects.',
+              duration: 'Duration: Bachelor\'s 4 years, Master\'s 1-2 years',
+              durationEn: 'Duration: Bachelor\'s 4 years, Master\'s 1-2 years',
+              entryRequirements: [
+                'Completion of high school or equivalent',
+                'IELTS 7.0 (with no band less than 6.5) or equivalent English proficiency',
+                'Some institutions require Law School Admission Test (LSAT)',
+                'Strong English writing and logical reasoning skills required'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 7.0 (with no band less than 6.5) or equivalent English proficiency',
+                'Some institutions require Law School Admission Test (LSAT)',
+                'Strong English writing and logical reasoning skills required'
+              ],
+              careerProspects: 'Law graduates can work in law firms, corporate legal departments, government agencies, and non-profit organizations. Career prospects improve significantly after legal practice certification. Starting salaries typically range from $60,000-$85,000 AUD, reaching $150,000+ with experience. Law offers stable employment in Australia.',
+              careerProspectsEn: 'Law graduates can work in law firms, corporate legal departments, government agencies, and non-profit organizations. Career prospects improve significantly after legal practice certification. Starting salaries typically range from $60,000-$85,000 AUD, reaching $150,000+ with experience. Law offers stable employment in Australia.'
             },
             arts: {
               name: 'Arts',
               nameEn: 'Arts',
               description: 'Arts includes design, music, visual arts.',
-              descriptionEn: 'Arts includes design, music, visual arts.'
+              descriptionEn: 'Arts includes design, music, visual arts.',
+              duration: 'Duration: Bachelor\'s 3-4 years, Master\'s 1.5-2 years',
+              durationEn: 'Duration: Bachelor\'s 3-4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Portfolio submission or interview required',
+                'Some programs may require relevant arts background',
+                'Music programs may require auditions'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Portfolio submission or interview required',
+                'Some programs may require relevant arts background',
+                'Music programs may require auditions'
+              ],
+              careerProspects: 'Arts graduates can work in design firms, advertising agencies, media, arts organizations, and education. Starting salaries typically range from $45,000-$65,000 AUD, reaching $80,000+ with experience. Arts suits creative students with diverse career paths, though building a portfolio and industry network is essential.',
+              careerProspectsEn: 'Arts graduates can work in design firms, advertising agencies, media, arts organizations, and education. Starting salaries typically range from $45,000-$65,000 AUD, reaching $80,000+ with experience. Arts suits creative students with diverse career paths, though building a portfolio and industry network is essential.'
             }
           }
         },
@@ -841,31 +1479,113 @@ export const translations = {
               name: 'Nursing',
               nameEn: 'Nursing',
               description: 'High demand for nursing with excellent salary packages.',
-              descriptionEn: 'High demand for nursing with excellent salary packages.'
+              descriptionEn: 'High demand for nursing with excellent salary packages.',
+              duration: 'Duration: Bachelor\'s 3-4 years, Master\'s 1.5-2 years',
+              durationEn: 'Duration: Bachelor\'s 3-4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                'Completion of high school or equivalent',
+                'IELTS 7.0 (with no band less than 7.0) or equivalent English proficiency',
+                'Some institutions require prerequisite courses in biology and chemistry',
+                'Health check and vaccination certificates may be required'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 7.0 (with no band less than 7.0) or equivalent English proficiency',
+                'Some institutions require prerequisite courses in biology and chemistry',
+                'Health check and vaccination certificates may be required'
+              ],
+              careerProspects: 'Nursing is one of Australia\'s most popular programs with near 100% employment rate. Registered nurses typically earn $70,000-$100,000 AUD annually, with senior nurses reaching $120,000+. Stable employment with excellent benefits, and nursing is on the skilled migration list, making it an ideal migration pathway.',
+              careerProspectsEn: 'Nursing is one of Australia\'s most popular programs with near 100% employment rate. Registered nurses typically earn $70,000-$100,000 AUD annually, with senior nurses reaching $120,000+. Stable employment with excellent benefits, and nursing is on the skilled migration list, making it an ideal migration pathway.'
             },
             it: {
               name: 'IT',
               nameEn: 'Information Technology',
               description: 'Rapidly growing IT industry with many job opportunities.',
-              descriptionEn: 'Rapidly growing IT industry with many job opportunities.'
+              descriptionEn: 'Rapidly growing IT industry with many job opportunities.',
+              duration: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              durationEn: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'Some specializations may require programming or computer-related background'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'Some specializations may require programming or computer-related background'
+              ],
+              careerProspects: 'IT is Australia\'s fastest-growing industry with abundant job opportunities and excellent salaries. Graduates can work in tech companies, financial institutions, and consulting firms. Starting salaries typically range from $70,000-$95,000 AUD, reaching $130,000+ with experience. IT is on the skilled migration list and is currently one of the most popular migration pathways.',
+              careerProspectsEn: 'IT is Australia\'s fastest-growing industry with abundant job opportunities and excellent salaries. Graduates can work in tech companies, financial institutions, and consulting firms. Starting salaries typically range from $70,000-$95,000 AUD, reaching $130,000+ with experience. IT is on the skilled migration list and is currently one of the most popular migration pathways.'
             },
             engineering: {
               name: 'Engineering',
               nameEn: 'Engineering',
               description: 'Stable employment in engineering with high salaries.',
-              descriptionEn: 'Stable employment in engineering with high salaries.'
+              descriptionEn: 'Stable employment in engineering with high salaries.',
+              duration: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              durationEn: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                'Completion of high school or equivalent with excellent grades in mathematics and physics',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Some specializations may require relevant background or work experience',
+                'Master\'s programs typically require a relevant bachelor\'s degree'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent with excellent grades in mathematics and physics',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Some specializations may require relevant background or work experience',
+                'Master\'s programs typically require a relevant bachelor\'s degree'
+              ],
+              careerProspects: 'Engineering offers long-term stability in Australia\'s job market with excellent salaries. Especially mining, petroleum, and civil engineering, starting salaries typically range from $75,000-$105,000 AUD, reaching $140,000+ with experience. Engineering is on the skilled migration list with excellent migration opportunities, making it a popular choice.',
+              careerProspectsEn: 'Engineering offers long-term stability in Australia\'s job market with excellent salaries. Especially mining, petroleum, and civil engineering, starting salaries typically range from $75,000-$105,000 AUD, reaching $140,000+ with experience. Engineering is on the skilled migration list with excellent migration opportunities, making it a popular choice.'
             },
             business: {
               name: 'Business',
               nameEn: 'Business',
               description: 'Broad employment opportunities in business with great development potential.',
-              descriptionEn: 'Broad employment opportunities in business with great development potential.'
+              descriptionEn: 'Broad employment opportunities in business with great development potential.',
+              duration: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              durationEn: 'Duration: Bachelor\'s 3 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'Some MBA programs require work experience'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 6.5 (with no band less than 6.0) or equivalent English proficiency',
+                'Strong mathematics foundation',
+                'Some MBA programs require work experience'
+              ],
+              careerProspects: 'Business offers broad employment opportunities across finance, consulting, marketing, and management. Starting salaries typically range from $60,000-$80,000 AUD, reaching $120,000+ with experience. Business programs offer diverse specializations suitable for various career paths, making it one of Australia\'s most popular programs.',
+              careerProspectsEn: 'Business offers broad employment opportunities across finance, consulting, marketing, and management. Starting salaries typically range from $60,000-$80,000 AUD, reaching $120,000+ with experience. Business programs offer diverse specializations suitable for various career paths, making it one of Australia\'s most popular programs.'
             },
             education: {
               name: 'Education',
               nameEn: 'Education',
               description: 'Stable employment in education with high social status.',
-              descriptionEn: 'Stable employment in education with high social status.'
+              descriptionEn: 'Stable employment in education with high social status.',
+              duration: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              durationEn: 'Duration: Bachelor\'s 4 years, Master\'s 1.5-2 years',
+              entryRequirements: [
+                'Completion of high school or equivalent',
+                'IELTS 7.5 (with no band less than 7.0, reading and writing no less than 7.5) or equivalent English proficiency',
+                'Must pass language and mathematics proficiency tests',
+                'Some institutions require teaching practicum',
+                'Police clearance certificate required'
+              ],
+              entryRequirementsEn: [
+                'Completion of high school or equivalent',
+                'IELTS 7.5 (with no band less than 7.0, reading and writing no less than 7.5) or equivalent English proficiency',
+                'Must pass language and mathematics proficiency tests',
+                'Some institutions require teaching practicum',
+                'Police clearance certificate required'
+              ],
+              careerProspects: 'Education offers stable employment in Australia with high social status and excellent working conditions. Teachers typically start at $70,000-$85,000 AUD, reaching $100,000+ with experience. After teacher registration, both employment and migration prospects are excellent. Education is on the skilled migration list and is a popular migration pathway.',
+              careerProspectsEn: 'Education offers stable employment in Australia with high social status and excellent working conditions. Teachers typically start at $70,000-$85,000 AUD, reaching $100,000+ with experience. After teacher registration, both employment and migration prospects are excellent. Education is on the skilled migration list and is a popular migration pathway.'
             }
           }
         }
